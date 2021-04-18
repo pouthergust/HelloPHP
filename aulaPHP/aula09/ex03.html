@@ -11,9 +11,9 @@
     <div>
         <form method="get "action="ex03.php">
             <label for="score1">Nota da matéria 1: </label>
-            <input type="number" name="score1" id="score1" placeholder="Nota"><br>
+            <input type="number" name="score1" id="score1" placeholder="Nota" min="0" max="10" required><br>
             <label for="score2">Nota da matéria 2: </label>
-            <input type="number" name="score2" id="score2" placeholder="Nota"><br>
+            <input type="number" name="score2" id="score2" placeholder="Nota" min="0" max="10" required><br>
 
             <button type="submit">Calcular média</button>
         </form>
